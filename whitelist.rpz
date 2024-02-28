@@ -1,4 +1,4 @@
-; Data i hora:   28/02/2024 17:58:50
+; Data i hora:   28/02/2024 18:14:26
 ; Registres:     191
 $TTL 3600      ; Temps de vida del registre (en segons)
 @ SOA localhost. root.localhost. (
