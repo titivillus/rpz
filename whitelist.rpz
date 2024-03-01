@@ -1,5 +1,5 @@
-; Data i hora:   01/03/2024 06:23:10
-; Registres:     191
+; Data i hora:   01/03/2024 18:12:01
+; Registres:     192
 $TTL 3600      ; Temps de vida del registre (en segons)
 @ SOA localhost. root.localhost. (
                  2024030101 ; Serial
@@ -180,6 +180,7 @@ dev.virtualearth.net CNAME rpz-passthru.
 ecn.dev.virtualearth.net CNAME rpz-passthru.
 t0.ssl.ak.tiles.virtualearth.net CNAME rpz-passthru.
 t0.ssl.ak.dynamic.tiles.virtualearth.net CNAME rpz-passthru.
+cdn.cookielaw.org CNAME rpz-passthru.
 api.ipify.org CNAME rpz-passthru.
 2.android.pool.ntp.org CNAME rpz-passthru.
 tawk.to CNAME rpz-passthru.
