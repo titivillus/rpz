@@ -1,8 +1,8 @@
-; Data i hora:   01/03/2024 18:14:24
+; Data i hora:   01/03/2024 18:39:27
 ; Registres:     192
 $TTL 3600      ; Temps de vida del registre (en segons)
 @ SOA localhost. root.localhost. (
-                 2024030102 ; Serial
+                 2024030103 ; Serial
                  86400      ; Refrescar cada 24 hores
                  7200       ; Temps de repetició (retry interval)
                  172800     ; Expiració en 2 dies (expiry interval)
