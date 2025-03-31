@@ -1,8 +1,8 @@
-; Data i hora:   31/03/2025 11:58:16
-; Registres:     192
+; Data i hora:   31/03/2025 12:44:34
+; Registres:     197
 $TTL 3600      ; Temps de vida del registre (en segons)
 @ SOA localhost. root.localhost. (
-                 2025033103 ; Serial
+                 2025033104 ; Serial
                  86400      ; Refrescar cada 24 hores
                  7200       ; Temps de repetició (retry interval)
                  172800     ; Expiració en 2 dies (expiry interval)
@@ -20,8 +20,12 @@ pubsub.plex.bz CNAME rpz-passthru.
 meta-db-worker02.pop.ric.plex.bz CNAME rpz-passthru.
 t.co CNAME rpz-passthru.
 1drv.com CNAME rpz-passthru.
+*.minerva.devices.a2z.com CNAME rpz-passthru.
 npr-news.streaming.adswizz.com CNAME rpz-passthru.
 akamaitechnologies.com CNAME rpz-passthru.
+fls-eu.amazon.com CNAME rpz-passthru.
+unagi-eu.amazon.com CNAME rpz-passthru.
+unagi-na.amazon.com CNAME rpz-passthru.
 amazonaws.com CNAME rpz-passthru.
 s3.amazonaws.com CNAME rpz-passthru.
 connectivitycheck.android.com CNAME rpz-passthru.
@@ -160,6 +164,7 @@ s.ytimg.com CNAME rpz-passthru.
 github.io CNAME rpz-passthru.
 intercom.io CNAME rpz-passthru.
 placehold.it CNAME rpz-passthru.
+api.eu-west-1.aiv-delivery.net CNAME rpz-passthru.
 akamaihd.net CNAME rpz-passthru.
 akamaized.net CNAME rpz-passthru.
 lastfm-img2.akamaized.net CNAME rpz-passthru.
