@@ -1,8 +1,8 @@
-; Data i hora:   31/03/2025 11:24:35
-; Registres:     206
+; Data i hora:   31/03/2025 11:58:16
+; Registres:     192
 $TTL 3600      ; Temps de vida del registre (en segons)
 @ SOA localhost. root.localhost. (
-                 2025033102 ; Serial
+                 2025033103 ; Serial
                  86400      ; Refrescar cada 24 hores
                  7200       ; Temps de repetició (retry interval)
                  172800     ; Expiració en 2 dies (expiry interval)
@@ -22,8 +22,6 @@ t.co CNAME rpz-passthru.
 1drv.com CNAME rpz-passthru.
 npr-news.streaming.adswizz.com CNAME rpz-passthru.
 akamaitechnologies.com CNAME rpz-passthru.
-*.amazon.com CNAME rpz-passthru.
-*.atv-ps-eu.amazon.com CNAME rpz-passthru.
 amazonaws.com CNAME rpz-passthru.
 s3.amazonaws.com CNAME rpz-passthru.
 connectivitycheck.android.com CNAME rpz-passthru.
@@ -91,7 +89,6 @@ nexusrules.officeapps.live.com CNAME rpz-passthru.
 onedrive.live.com CNAME rpz-passthru.
 outlook.live.com CNAME rpz-passthru.
 s.marketwatch.com CNAME rpz-passthru.
-*.media-amazon.com CNAME rpz-passthru.
 continuum.dds.microsoft.com CNAME rpz-passthru.
 win10.ipv6.microsoft.com CNAME rpz-passthru.
 xbox.ipv6.microsoft.com CNAME rpz-passthru.
@@ -120,14 +117,12 @@ my.plexapp.com CNAME rpz-passthru.
 node.plexapp.com CNAME rpz-passthru.
 nine.plugins.plexapp.com CNAME rpz-passthru.
 tvthemes.plexapp.com CNAME rpz-passthru.
-*.primevideo.com CNAME rpz-passthru.
 widget-cdn.rpxnow.com CNAME rpz-passthru.
 c.s-microsoft.com CNAME rpz-passthru.
 apps.skype.com CNAME rpz-passthru.
 pricelist.skype.com CNAME rpz-passthru.
 ui.skype.com CNAME rpz-passthru.
 spclient.wg.spotify.com CNAME rpz-passthru.
-ssl-images-amazon.com CNAME rpz-passthru.
 secure.surveymonkey.com CNAME rpz-passthru.
 sa.symcb.com CNAME rpz-passthru.
 app-api.ted.com CNAME rpz-passthru.
@@ -162,23 +157,15 @@ s2.youtube.com CNAME rpz-passthru.
 i.ytimg.com CNAME rpz-passthru.
 i1.ytimg.com CNAME rpz-passthru.
 s.ytimg.com CNAME rpz-passthru.
-*.amazon.es CNAME rpz-passthru.
-completion.amazon.es CNAME rpz-passthru.
-signin.amazon.es CNAME rpz-passthru.
 github.io CNAME rpz-passthru.
 intercom.io CNAME rpz-passthru.
 placehold.it CNAME rpz-passthru.
-*.aiv-cdn.net CNAME rpz-passthru.
-*.aiv-delivery.net CNAME rpz-passthru.
 akamaihd.net CNAME rpz-passthru.
-avodmp4s3ww-a.akamaihd.net CNAME rpz-passthru.
 akamaized.net CNAME rpz-passthru.
 lastfm-img2.akamaized.net CNAME rpz-passthru.
 brightcove.net CNAME rpz-passthru.
 players.brightcove.net CNAME rpz-passthru.
 cdn.cloudflare.net CNAME rpz-passthru.
-d1v5ir2lpwr8os.cloudfront.net CNAME rpz-passthru.
-d22qjgkvxw22r6.cloudfront.net CNAME rpz-passthru.
 d2c8v52ll5s99u.cloudfront.net CNAME rpz-passthru.
 d2gatte9o95jao.cloudfront.net CNAME rpz-passthru.
 ax.phobos.apple.com.edgesuite.net CNAME rpz-passthru.
@@ -187,7 +174,6 @@ placeholdit.imgix.net CNAME rpz-passthru.
 jsdelivr.net CNAME rpz-passthru.
 office.net CNAME rpz-passthru.
 clientconfig.passport.net CNAME rpz-passthru.
-*.pv-cdn.net CNAME rpz-passthru.
 api.rlje.net CNAME rpz-passthru.
 imagesak.secureserver.net CNAME rpz-passthru.
 dev.virtualearth.net CNAME rpz-passthru.
