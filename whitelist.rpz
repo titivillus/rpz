@@ -1,8 +1,8 @@
-; Data i hora:   31/03/2025 17:07:03
-; Registres:     194
+; Data i hora:   31/03/2025 18:01:22
+; Registres:     197
 $TTL 3600      ; Temps de vida del registre (en segons)
 @ SOA localhost. root.localhost. (
-                 2025033105 ; Serial
+                 2025033106 ; Serial
                  86400      ; Refrescar cada 24 hores
                  7200       ; Temps de repetició (retry interval)
                  172800     ; Expiració en 2 dies (expiry interval)
@@ -23,6 +23,9 @@ t.co CNAME rpz-passthru.
 *.minerva.devices.a2z.com CNAME rpz-passthru.
 npr-news.streaming.adswizz.com CNAME rpz-passthru.
 akamaitechnologies.com CNAME rpz-passthru.
+fls-eu.amazon.com CNAME rpz-passthru.
+unagi-eu.amazon.com CNAME rpz-passthru.
+unagi-na.amazon.com CNAME rpz-passthru.
 amazonaws.com CNAME rpz-passthru.
 s3.amazonaws.com CNAME rpz-passthru.
 connectivitycheck.android.com CNAME rpz-passthru.
